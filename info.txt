@@ -58,19 +58,25 @@ go run --work gobasics/main.go
 + etc
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
-
 
 14. Go4DataScience - Reading CSV Files in Golang
+
+
+go get github.com/go-gota/gota/dataframe
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
+
 15. Go4DataScience - Reading PDF Files
 섹션 2: Module 02 - Go For Natural Language Processing
 16. Go4NLP - Introduction to Natural Language Processing &amp; Strings in Go
