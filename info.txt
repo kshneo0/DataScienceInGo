@@ -14,6 +14,13 @@ Python                          Go
 - Flask, Django & Streamlit     - Http, Gin, Iris, BeeGo, Buffalo, Flamingo, 
                                   Echo, Gorilla, Revel, Tango, Martinietc
 --------------------
+
+7. Go4DataScience - Setting Up  Go IDE, VsCode & Structure of A Go Program
+
+https://replit.com/languages/go
+
+go run --work gobasics/main.go
+
 --------------------
 --------------------
 --------------------
@@ -24,12 +31,6 @@ Python                          Go
 --------------------
 --------------------
 
-
-
-4. Installing Golang on Linux Ubuntu
-5. Installing Golang  and Updating To New Versions
-6. Go4DataScience - Course Guide and Source Code
-7. Go4DataScience - Setting Up  Go IDE, VsCode &amp; Structure of A Go Program
 8. Go4DataScience - Variables
 9. Go4DataScience - Arrays
 10. Go4DataScience - Slices
