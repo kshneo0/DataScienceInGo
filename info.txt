@@ -15,13 +15,17 @@ Python                          Go
                                   Echo, Gorilla, Revel, Tango, Martinietc
 --------------------
 
-7. Go4DataScience - Setting Up  Go IDE, VsCode & Structure of A Go Program
+7. Go4DataScience - Setting Up Go IDE, VsCode & Structure of A Go Program
 
 https://replit.com/languages/go
 
 go run --work gobasics/main.go
 
 --------------------
+
+8. Go4DataScience - Variables
+
+
 --------------------
 --------------------
 --------------------
@@ -31,7 +35,7 @@ go run --work gobasics/main.go
 --------------------
 --------------------
 
-8. Go4DataScience - Variables
+
 9. Go4DataScience - Arrays
 10. Go4DataScience - Slices
 11. Go4DataScience - Range &amp; For Loops
