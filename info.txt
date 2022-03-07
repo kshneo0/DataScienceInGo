@@ -1,0 +1,83 @@
+섹션 1: Module 01
+--------------------
+
+3. DataScience Packages in Go
+
+Python                          Go
+- Pandas                        - GoTa, qFrames, DataFrames-go
+- Numpy                         - Gonum, Stats
+- Scikit-Learn                  - GoSklearn, GoLearn, Gorgonia, Go4ML
+- Tensorflow, Keras, PyTorch    - Tensorflow/Tfgo, GoBrain, GoDeep, GoTorch
+- NLP(Spacy, NLTK, Flair)       - NLP(Prose)
+- OpenCV                        - GoCV
+- Jupyter Notebook              - GopherNotes
+- Flask, Django & Streamlit     - Http, Gin, Iris, BeeGo, Buffalo, Flamingo, 
+                                  Echo, Gorilla, Revel, Tango, Martinietc
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+4. Installing Golang on Linux Ubuntu
+5. Installing Golang  and Updating To New Versions
+6. Go4DataScience - Course Guide and Source Code
+7. Go4DataScience - Setting Up  Go IDE, VsCode &amp; Structure of A Go Program
+8. Go4DataScience - Variables
+9. Go4DataScience - Arrays
+10. Go4DataScience - Slices
+11. Go4DataScience - Range &amp; For Loops
+12. Go4DataScience - Map
+13. Go4DataScience - Reading Text Files in Golang
+14. Go4DataScience - Reading CSV Files in Golang
+15. Go4DataScience - Reading PDF Files
+섹션 2: Module 02 - Go For Natural Language Processing
+16. Go4NLP - Introduction to Natural Language Processing &amp; Strings in Go
+17. Go4NLP - Working with the Strings Package
+18. Go4NLP - Text Cleaning using Regex
+19. Go4NLP - Language Detection
+20. Go4NLP - Language Detection with Whatlanggo
+21. Go4NLP - Tokenization In Golang
+22. Go4NLP -  Tokenization using Regular Expression
+23. Go4NLP - Prose : Part of Speech Tagging in Golang
+24. Go4NLP - Prose : Noun Chunk
+25. Go4NLP - Prose : Creating Custom Verb Chunks
+26. Go4NLP - Prose : Named Entity Recognition Chunks in Golang
+27. Go4NLP - Prose : NER (Named Entity Recognition) In Golang
+28. Go4NLP - Natural Language Processing with Prose V2
+29. Go4NLP - Keyword Extraction in Golang
+30. Go4NLP - Text Summarization using TLDR
+섹션 3: Module 02 - Sentiment Analysis In Golang
+31. Sentiment Analysis in Go : VADER (Rule Based )
+32. Sentiment Analysis in Go : Machine Learning Based
+33. Sentiment Analysis in Go : Mini Project
+섹션 4: Module 03 - Data Analysis &amp; Statistics with Golang
+34. Statistics in Golang
+35. Data Analysis in Golang Using GoTa
+36. Exploring Gonum
+섹션 5: Module 04 - Go For Machine Learning (Go4ML)
+섹션 6: Module 05 - Building  Data Web Apps with Golang
+41. Introduction To Building Data Web Apps
+42. GoFiber - Basics
+43. GoFiber - Working with Query Params
+44. GoFiber - Rendering HTML &amp; Templating
+45. GoFiber - Form Handling
+46. GoFiber - Form Handling with POST
+47. GoFiber -  File Uploads
+48. GoFiber - Working with Static Files
+49. GoFiber - Rendering Uploaded Files to Front-End
+50. GoFiber - Working with Bootstrap
+섹션 7: Module 05 - Building Sentiment Analysis NLP App in Go
+51. Sentiment Analysis Web App - Demo
+52. Sentiment Analysis Web App -  Building the App
+53. Sentiment Analysis Web App - API Section
+54. Sentiment Analysis Web App - Beautifying the App
+섹션 8: Bonus - Miscellaneous
+55. Generate QR-Code in Golang
