@@ -30,16 +30,19 @@ go run --work gobasics/main.go
 9. Go4DataScience - Arrays
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 10. Go4DataScience - Slices
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 11. Go4DataScience - Range &amp; For Loops
 12. Go4DataScience - Map
 13. Go4DataScience - Reading Text Files in Golang
