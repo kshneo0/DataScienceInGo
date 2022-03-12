@@ -73,20 +73,29 @@ go get rsc.io/pdf
 go get github.com/jung-kurt/gofpdf
 
 --------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
-
-
-
 
 섹션 2: Module 02 - Go For Natural Language Processing
-16. Go4NLP - Introduction to Natural Language Processing &amp; Strings in Go
+
+Prose, NLP, SpacyGo Ling, Getlang, Whatlang, Commonregex, Go2Vec, TextCat
+Sentiment, GoVader, Gostems, Stemmers, RAKE
+
+--------------------
+
+16. Go4NLP - Introduction to Natural Language Processing & Strings in Go
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 17. Go4NLP - Working with the Strings Package
 18. Go4NLP - Text Cleaning using Regex
 19. Go4NLP - Language Detection
