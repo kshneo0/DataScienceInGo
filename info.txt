@@ -207,19 +207,27 @@ go get github.com/Obaied/RAKE.Go
 
 go get github.com/JesusIslam/tldr
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 섹션 3: Module 02 - Sentiment Analysis In Golang
+
+--------------------
+
 31. Sentiment Analysis in Go : VADER (Rule Based )
+
+github.com/grassmudhorses/vader-go
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
 32. Sentiment Analysis in Go : Machine Learning Based
 33. Sentiment Analysis in Go : Mini Project
 섹션 4: Module 03 - Data Analysis &amp; Statistics with Golang
