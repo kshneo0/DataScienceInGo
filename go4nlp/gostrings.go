@@ -34,4 +34,6 @@ func main() {
 	// Representing : method2 %c + Printf()
 	fmt.Printf("%c\n", char)
 	fmt.Printf("%c\n", char2)
+
+	
 }
