@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/jdkato/prose/tag"
 	"github.com/jdkato/prose/tokenize"
@@ -20,5 +21,27 @@ func main() {
 	for _, token := range postagger.Tag(mytokens) {
 		fmt.Println(token.Text, token.Tag)
 	}
+
+	results := nounchunker(mytext)
+	fmt.Println("Noun Chunks::", results)
+
+}
+
+func nounchunker(text string) []string {
+	// Tokenize
+	mytokens := tokenize.NewTreebankWordTokenizer().Tokenize(text)
+
+	// Tag
+	postagger := tag.NewPerceptronTagger()
+	nounList := []string{}
+	for _, token := range postagger.Tag(mytokens) {
+		// If tag == NN
+		// if token.Tag == "NN"
+		if strings.HasPrefix(token.Tag, "N") {
+			// Append to our list
+			nounList = append(nounList, token.Text)
+		}
+	}
+	return nounList
 
 }
