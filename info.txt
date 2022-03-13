@@ -217,18 +217,23 @@ go get github.com/JesusIslam/tldr
 github.com/grassmudhorses/vader-go
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
-
 
 32. Sentiment Analysis in Go : Machine Learning Based
+
+github.com/cdipaolo/sentiment
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
+
 33. Sentiment Analysis in Go : Mini Project
 섹션 4: Module 03 - Data Analysis &amp; Statistics with Golang
 34. Statistics in Golang
