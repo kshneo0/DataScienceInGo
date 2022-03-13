@@ -14,6 +14,8 @@ require (
 
 require (
 	github.com/deckarep/golang-set v1.7.1 // indirect
+	github.com/montanaflynn/stats v0.6.3 // indirect
+	github.com/shogo82148/go-shuffle v0.0.0-20180218125048-27e6095f230d // indirect
 	golang.org/x/net v0.0.0-20210423184538-5f58ad60dda6 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gonum.org/v1/gonum v0.9.1 // indirect
