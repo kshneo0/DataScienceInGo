@@ -92,6 +92,20 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 + Text Classification
 + Summary
 
+
+##### GO NLP Pkgs
++ Prose:  github.com/jdkato/prose/v2 / gopkg.in/jdkato/prose.v2
++ NLP: github.com/james-bowman/nlp
++ Spacy: github.com/yash1994/spacy-go
++ Ling: github.com/liuzl/ling
++ Vader Go:
+  + github.com/grassmudhorses/vader-go/sentitext
+  + github.com/cdipaolo/sentiment
+
++ Regexp
++ CommonRegex : go get github.com/mingrammer/commonregex
++ Norm : unicode normalization
+
 --------------------
 
 16. Go4NLP - Introduction to Natural Language Processing & Strings in Go
@@ -178,6 +192,9 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 + go get gopkg.in/jdkato/prose.v2
 
 --------------------
+
+28. Go4NLP - Natural Language Processing with Prose V2
+
 --------------------
 --------------------
 --------------------
@@ -189,7 +206,7 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 --------------------
 --------------------
 
-28. Go4NLP - Natural Language Processing with Prose V2
+
 29. Go4NLP - Keyword Extraction in Golang
 30. Go4NLP - Text Summarization using TLDR
 섹션 3: Module 02 - Sentiment Analysis In Golang
