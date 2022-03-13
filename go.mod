@@ -13,7 +13,9 @@ require (
 )
 
 require (
+	github.com/JesusIslam/tldr v0.6.0 // indirect
 	github.com/Obaied/RAKE.Go v0.0.0-20191109090147-068a9e43b194 // indirect
+	github.com/alixaxel/pagerank v0.0.0-20160306110729-14bfb4c1d88c // indirect
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/montanaflynn/stats v0.6.3 // indirect
 	github.com/shogo82148/go-shuffle v0.0.0-20180218125048-27e6095f230d // indirect

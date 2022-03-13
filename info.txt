@@ -202,18 +202,22 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 go get github.com/Obaied/RAKE.Go
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 30. Go4NLP - Text Summarization using TLDR
+
+go get github.com/JesusIslam/tldr
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 섹션 3: Module 02 - Sentiment Analysis In Golang
 31. Sentiment Analysis in Go : VADER (Rule Based )
 32. Sentiment Analysis in Go : Machine Learning Based
