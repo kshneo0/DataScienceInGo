@@ -79,6 +79,19 @@ go get github.com/jung-kurt/gofpdf
 Prose, NLP, SpacyGo Ling, Getlang, Whatlang, Commonregex, Go2Vec, TextCat
 Sentiment, GoVader, Gostems, Stemmers, RAKE
 
+####  Go Fot NLP
++ Strings
++ Regex / regexp
++ Language Detection
++ NLP
+    + Tokenization
+    + Pos
+    + NER
+    + etc
++ Sentiment Analysis
++ Text Classification
++ Summary
+
 --------------------
 
 16. Go4NLP - Introduction to Natural Language Processing & Strings in Go
@@ -88,19 +101,24 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 17. Go4NLP - Working with the Strings Package
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 18. Go4NLP - Text Cleaning using Regex
+
++ Regexp
++ CommonRegex : go get github.com/mingrammer/commonregex
++ Norm : unicode normalization
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 19. Go4NLP - Language Detection
 20. Go4NLP - Language Detection with Whatlanggo
 21. Go4NLP - Tokenization In Golang
