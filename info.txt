@@ -196,18 +196,23 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 28. Go4NLP - Natural Language Processing with Prose V2
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 29. Go4NLP - Keyword Extraction in Golang
+
+go get github.com/Obaied/RAKE.Go
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 30. Go4NLP - Text Summarization using TLDR
 섹션 3: Module 02 - Sentiment Analysis In Golang
 31. Sentiment Analysis in Go : VADER (Rule Based )
