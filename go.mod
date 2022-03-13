@@ -20,7 +20,7 @@ require (
 	github.com/cdipaolo/sentiment v0.0.0-20200617002423-c697f64e7f10 // indirect
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/grassmudhorses/vader-go v0.0.0-20191126145716-003d5aacdb71 // indirect
-	github.com/montanaflynn/stats v0.6.3 // indirect
+	github.com/montanaflynn/stats v0.6.6 // indirect
 	github.com/shogo82148/go-shuffle v0.0.0-20180218125048-27e6095f230d // indirect
 	golang.org/x/net v0.0.0-20210423184538-5f58ad60dda6 // indirect
 	golang.org/x/text v0.3.7 // indirect

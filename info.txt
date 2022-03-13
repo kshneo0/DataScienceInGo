@@ -227,19 +227,28 @@ github.com/cdipaolo/sentiment
 33. Sentiment Analysis in Go : Mini Project
 
 --------------------
+
+섹션 4: Module 03 - Data Analysis & Statistics with Golang
+
 --------------------
---------------------
---------------------
 
-
-
-
-
-
-
-
-섹션 4: Module 03 - Data Analysis &amp; Statistics with Golang
 34. Statistics in Golang
+
++ go get github.com/montanaflynn/stats
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 35. Data Analysis in Golang Using GoTa
 36. Exploring Gonum
 섹션 5: Module 04 - Go For Machine Learning (Go4ML)
