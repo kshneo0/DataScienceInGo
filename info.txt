@@ -119,20 +119,27 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 
 20. Go4NLP - Language Detection with Whatlanggo
 
-
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 21. Go4NLP - Tokenization In Golang
+
++ go get github.com/jdkato/prose
++ go get github.com/jdkato/prose/v2
+
++ go get gopkg.in/jdkato/prose.v2
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 22. Go4NLP -  Tokenization using Regular Expression
 23. Go4NLP - Prose : Part of Speech Tagging in Golang
 24. Go4NLP - Prose : Noun Chunk
