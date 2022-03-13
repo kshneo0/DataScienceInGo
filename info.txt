@@ -109,17 +109,24 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 + Norm : unicode normalization
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 19. Go4NLP - Language Detection
+
++ go get -u github.com/abadojack/whatlanggo
++ go get -u github.com/rylans/getlang
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
 20. Go4NLP - Language Detection with Whatlanggo
 21. Go4NLP - Tokenization In Golang
 22. Go4NLP -  Tokenization using Regular Expression
