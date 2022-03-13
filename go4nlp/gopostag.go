@@ -25,6 +25,9 @@ func main() {
 	results := nounchunker(mytext)
 	fmt.Println("Noun Chunks::", results)
 
+	verbresults := verbchunker(mytext)
+	fmt.Println("Verb Chunks::", verbresults)
+
 }
 
 func nounchunker(text string) []string {
@@ -43,5 +46,25 @@ func nounchunker(text string) []string {
 		}
 	}
 	return nounList
+
+}
+
+// Create VerbExtractor/Chunker
+
+func verbchunker(text string) []string {
+	// Tokenize
+	mytokens := tokenize.NewTreebankWordTokenizer().Tokenize(text)
+
+	// Tag
+	postagger := tag.NewPerceptronTagger()
+	verbList := []string{}
+	for _, token := range postagger.Tag(mytokens) {
+		// If tag == NN
+		if strings.HasPrefix(token.Tag, "V") {
+			// Append
+			verbList = append(verbList, token.Text)
+		}
+	}
+	return verbList
 
 }
