@@ -116,6 +116,10 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 + go get -u github.com/rylans/getlang
 
 --------------------
+
+20. Go4NLP - Language Detection with Whatlanggo
+
+
 --------------------
 --------------------
 --------------------
@@ -127,7 +131,7 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 --------------------
 --------------------
 
-20. Go4NLP - Language Detection with Whatlanggo
+
 21. Go4NLP - Tokenization In Golang
 22. Go4NLP -  Tokenization using Regular Expression
 23. Go4NLP - Prose : Part of Speech Tagging in Golang
