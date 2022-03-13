@@ -124,9 +124,6 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 21. Go4NLP - Tokenization In Golang
 
 + go get github.com/jdkato/prose
-+ go get github.com/jdkato/prose/v2
-
-+ go get gopkg.in/jdkato/prose.v2
 
 --------------------
 
@@ -173,19 +170,25 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 26. Go4NLP - Prose : Named Entity Recognition Chunks in Golang
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 27. Go4NLP - Prose : NER (Named Entity Recognition) In Golang
+
++ go get github.com/jdkato/prose/v2
+
++ go get gopkg.in/jdkato/prose.v2
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
 28. Go4NLP - Natural Language Processing with Prose V2
 29. Go4NLP - Keyword Extraction in Golang
 30. Go4NLP - Text Summarization using TLDR
