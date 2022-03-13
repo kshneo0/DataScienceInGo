@@ -129,18 +129,45 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 + go get gopkg.in/jdkato/prose.v2
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 22. Go4NLP -  Tokenization using Regular Expression
+
++ Tokenization: Splitting of sentences/phrases/Text
+  documents into smaller units called tokens
++ Segmenting of text
++ Type of Tokenization
+  + Word Tokenization: Word levels
+  + Sentence Tokenization: Paragraph into Individual sentences
+  + Character Tokenization: Words into individual Characters
++ Usefulness
+  + Understanding Meaning & Context
+  + Keyword Identification & Extraction
+  + Most Relevant Words
+  + Summarization
+  + Word Frequency
+
++ Pos: Parts of Speech
++ A Special label assigned to each word in a text to indicate the part it plays in a speech or text
++ Pos Tagging/Annotation
+
++ Usefulness
+  + For Building Parse Trees
+  + Identifying Nouns useful for NER
+  + Essential For Building Lemmatizers vid knowing the root of a word
+  + Semantics
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 23. Go4NLP - Prose : Part of Speech Tagging in Golang
 24. Go4NLP - Prose : Noun Chunk
 25. Go4NLP - Prose : Creating Custom Verb Chunks

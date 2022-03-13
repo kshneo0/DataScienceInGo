@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	// Tokenization : split or segment sentence into tokens/
+	// Tokenization : split or segment sentence into tokens/units
 	// From Scratch
 	var mytext string = "Paul wasn't coding at all"
 	// Method 1
