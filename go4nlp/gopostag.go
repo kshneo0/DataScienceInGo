@@ -4,14 +4,15 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/jdkato/prose/chunk"
 	"github.com/jdkato/prose/tag"
 	"github.com/jdkato/prose/tokenize"
 )
 
 func main() {
 
-	// mytext := "Jesse was going to fish a fish at the bank in London"
-	mytext := " I am going to fish a fish at the bank"
+	mytext := "Jesse was going to fish a fish at the bank in London"
+	//mytext := " I am going to fish a fish at the bank"
 
 	// Tokenize
 	mytokens := tokenize.NewTreebankWordTokenizer().Tokenize(mytext)
@@ -27,6 +28,17 @@ func main() {
 
 	verbresults := verbchunker(mytext)
 	fmt.Println("Verb Chunks::", verbresults)
+
+	// Prose : NER Chunks
+	// Tokenize
+	// Tag
+	// Get Entities/Noun Entities
+	regex := chunk.TreebankNamedEntities
+	// Loop: tag + reg == Named Entity Chunks
+	for _, entity := range chunk.Chunk(postagger.Tag(mytokens), regex) {
+		fmt.Println(entity)
+
+	}
 
 }
 

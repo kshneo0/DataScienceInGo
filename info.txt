@@ -169,19 +169,22 @@ Sentiment, GoVader, Gostems, Stemmers, RAKE
 25. Go4NLP - Prose : Creating Custom Verb Chunks
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 26. Go4NLP - Prose : Named Entity Recognition Chunks in Golang
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 27. Go4NLP - Prose : NER (Named Entity Recognition) In Golang
 28. Go4NLP - Natural Language Processing with Prose V2
 29. Go4NLP - Keyword Extraction in Golang
