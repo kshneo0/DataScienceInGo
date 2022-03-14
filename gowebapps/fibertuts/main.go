@@ -1,34 +1,29 @@
 package main
 
 import (
-	"strings"
-
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/template/html"
 )
 
 func main() {
+
+	// Render HTML
+	// Templating Engine
+	engine := html.New("gowebapps/fibertuts/views", ".html")
+
+	// Reload For Changes :For Dev
+	engine.Reload(true)
+
 	// Init App
-	app := fiber.New()
-
-	// Route For Params
-	// localhost:3000/api/Jesse
-
-	app.Get("/api/:name", func(c *fiber.Ctx) error {
-		fname := c.Params("name")
-		return c.SendString(fname)
+	app := fiber.New(fiber.Config{
+		Views: engine,
 	})
 
-	// Foute For Query
-	// localhost:3000/api/?text\"my wonderful app"
-
-	app.Get("/api/:text?", func(c *fiber.Ctx) error {
-		msg := c.Query("text")
-		// return c.SendString(msg)
-		newmsg := strings.ToUpper(msg)
-
-		return c.JSON(fiber.Map{
-			"original":msg,
-			"modified":newmsg,
+	// Route
+	app.Get("/", func(c *fiber.Ctx) error {
+		message := "Hello Data Scientist & Developers"
+		return c.Render("index", fiber.Map{
+			"coolMessage": message,
 		})
 	})
 
