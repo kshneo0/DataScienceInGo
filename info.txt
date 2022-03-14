@@ -245,7 +245,16 @@ github.com/cdipaolo/sentiment
 36. Exploring Gonum
 
 --------------------
+
+섹션 5: Module 04 - Go For Machine Learning (Go4ML)
+
 --------------------
+
+37. Go4ML - Machine Learning with Go - Preparing Data
+
+go get github.com/cdipaolo/goml
+import "github.com/cdipaolo/goml/base"
+import "github.com/cdipaolo/goml/linear"
 --------------------
 --------------------
 --------------------
@@ -253,8 +262,8 @@ github.com/cdipaolo/sentiment
 --------------------
 --------------------
 
-섹션 5: Module 04 - Go For Machine Learning (Go4ML)
-37. Go4ML - Machine Learning with Go - Preparing Data
+
+
 38. Go4ML - Machine Learning with GoML
 39. Go4ML - Evaluating the Model
 40. Go4ML - Text Classification In Golang
