@@ -295,16 +295,19 @@ import "github.com/cdipaolo/goml/text"
 go get github.com/gofiber/fiber/v2
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 43. GoFiber - Working with Query Params
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 44. GoFiber - Rendering HTML &amp; Templating
 45. GoFiber - Form Handling
 46. GoFiber - Form Handling with POST
