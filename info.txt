@@ -271,17 +271,33 @@ import "github.com/cdipaolo/goml/linear"
 import "github.com/cdipaolo/goml/text"
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 섹션 6: Module 05 - Building  Data Web Apps with Golang
+
+--------------------
+
 41. Introduction To Building Data Web Apps
+
++ Gin Gocin, Iris, Fiber, Martini, Beego, Revel, Tango, Buffalo, etc
++ Data Web Apps
+  + NLP Apps with Go
+  + ML Apps with Go
++ Desktop Apps
+  + Gio
+  + Lorca
+  + Walls
+  + etc
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
 42. GoFiber - Basics
 43. GoFiber - Working with Query Params
 44. GoFiber - Rendering HTML &amp; Templating
