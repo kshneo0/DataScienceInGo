@@ -289,6 +289,11 @@ import "github.com/cdipaolo/goml/text"
   + etc
 
 --------------------
+
+42. GoFiber - Basics
+
+go get github.com/gofiber/fiber/v2
+
 --------------------
 --------------------
 --------------------
@@ -298,7 +303,7 @@ import "github.com/cdipaolo/goml/text"
 --------------------
 --------------------
 
-42. GoFiber - Basics
+
 43. GoFiber - Working with Query Params
 44. GoFiber - Rendering HTML &amp; Templating
 45. GoFiber - Form Handling
@@ -309,7 +314,7 @@ import "github.com/cdipaolo/goml/text"
 50. GoFiber - Working with Bootstrap
 섹션 7: Module 05 - Building Sentiment Analysis NLP App in Go
 51. Sentiment Analysis Web App - Demo
-52. Sentiment Analysis Web App -  Building the App
+52. Sentiment Analysis Web App - Building the App
 53. Sentiment Analysis Web App - API Section
 54. Sentiment Analysis Web App - Beautifying the App
 섹션 8: Bonus - Miscellaneous
