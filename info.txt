@@ -261,15 +261,19 @@ import "github.com/cdipaolo/goml/linear"
 38. Go4ML - Machine Learning with GoML
 
 --------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 39. Go4ML - Evaluating the Model
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 40. Go4ML - Text Classification In Golang
 섹션 6: Module 05 - Building  Data Web Apps with Golang
 41. Introduction To Building Data Web Apps
