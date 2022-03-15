@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html"
 )
@@ -19,7 +21,7 @@ func main() {
 		Views: engine,
 	})
 
-	// Route
+	// Route : Using Get Method
 	app.Get("/", func(c *fiber.Ctx) error {
 		initMessage := "Hello Data Scientist & Developers"
 		// fname := c.FormValue("firstname")
@@ -32,15 +34,28 @@ func main() {
 		})
 	})
 
+	// Route : Using Post Method
 	app.Post("/", func(c *fiber.Ctx) error {
 		initMessage := "Posted New Message Here"
 		fname := c.FormValue("firstname")
 		message := c.FormValue("message")
 
+		// File Uploads
+		file, err := c.FormFile("filename")
+		if err != nil {
+			return err
+		}
+		fileName := file.Filename
+		fileSize := file.Size
+		// Saving File
+		c.SaveFile(file, fmt.Sprintf("gowebapps/fibertuts/myfiles/%s", file.Filename))
+
 		return c.Render("index", fiber.Map{
-			"coolMessage": initMessage,
-			"firstName":   fname,
-			"newMessage":  message,
+			"coolMessage":   initMessage,
+			"firstName":     fname,
+			"newMessage":    message,
+			"SavedFileName": fileName,
+			"SavedFileSize": fileSize,
 		})
 	})
 
