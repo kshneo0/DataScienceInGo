@@ -315,17 +315,23 @@ go get github.com/gofiber/fiber/v2
 47. GoFiber -  File Uploads
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 48. GoFiber - Working with Static Files
+
+--------------------
+
+48. GoFiber - Working with Static Files
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 49. GoFiber - Rendering Uploaded Files to Front-End
 50. GoFiber - Working with Bootstrap
 섹션 7: Module 05 - Building Sentiment Analysis NLP App in Go
