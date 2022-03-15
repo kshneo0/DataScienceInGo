@@ -21,6 +21,10 @@ func main() {
 		Views: engine,
 	})
 
+	// Serving Static Files
+	// localhost:3000/myimage.png
+	app.Static("/", "gowebapps/fibertuts/myfiles")
+
 	// Route : Using Get Method
 	app.Get("/", func(c *fiber.Ctx) error {
 		initMessage := "Hello Data Scientist & Developers"
