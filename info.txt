@@ -343,12 +343,17 @@ go get github.com/gofiber/fiber/v2
 52. Sentiment Analysis Web App - Building the App
 
 --------------------
+
+53. Sentiment Analysis Web App - API Section
+
+curl 'http://127.0.0.1:3000/api/?text="this works so good"'
+
 --------------------
 --------------------
 --------------------
 --------------------
 
-53. Sentiment Analysis Web App - API Section
+
 54. Sentiment Analysis Web App - Beautifying the App
 섹션 8: Bonus - Miscellaneous
 55. Generate QR-Code in Golang
