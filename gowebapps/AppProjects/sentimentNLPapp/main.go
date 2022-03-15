@@ -1,6 +1,7 @@
 package main
 
 import (
+	swagger "github.com/arsmn/fiber-swagger/v2"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html"
 	"github.com/grassmudhorses/vader-go/lexicon"
@@ -51,6 +52,14 @@ func main() {
 		})
 
 	})
+
+	// Swagger
+	app.Get("/swagger/*", swagger.HandlerDefault)
+
+	app.Get("/swagger/*", swagger.New(swagger.Config{ // custom
+		URL:         "http://example.com/doc.json",
+		DeepLinking: false,
+	}))
 
 	// Listen Route
 	app.Listen(":3000")
