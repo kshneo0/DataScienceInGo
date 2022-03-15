@@ -22,13 +22,25 @@ func main() {
 	// Route
 	app.Get("/", func(c *fiber.Ctx) error {
 		initMessage := "Hello Data Scientist & Developers"
+		// fname := c.FormValue("firstname")
+		// message := c.FormValue("message")
+
+		return c.Render("index", fiber.Map{
+			"coolMessage": initMessage,
+			// "firstName": fname,
+			// "newMessage": message,
+		})
+	})
+
+	app.Post("/", func(c *fiber.Ctx) error {
+		initMessage := "Posted New Message Here"
 		fname := c.FormValue("firstname")
 		message := c.FormValue("message")
 
 		return c.Render("index", fiber.Map{
 			"coolMessage": initMessage,
-			"firstName": fname,
-			"newMessage": message,
+			"firstName":   fname,
+			"newMessage":  message,
 		})
 	})
 
