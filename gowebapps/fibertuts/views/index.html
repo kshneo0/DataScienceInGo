@@ -13,5 +13,23 @@
     <div>
       <p>{{ .coolMessage}}</p>
     </div>
+    <form method="GET" action="/">
+      <div>
+        <input type="text" name="firstname" />
+      </div>
+      <div>
+        <textarea type="text" rows="10" cols="10" name="message"> </textarea>
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+
+    <br />
+    <hr />
+
+    <div>
+      <p>Original Message: {{ .newMessage }}</p>
+      <p>Welcome {{ .firstName }} to Go 4 Data Science and GoFiber</p>
+    </div>
   </body>
 </html>
