@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLP Web App</title>
+  </head>
+  <body>
+    <div>
+      <h3>Sentiment Analysis Web App with Go</h3>
+      <p>{{.initMessage }}</p>
+    </div>
+
+    <div>
+      <form action="/" method="POST">
+        <div>
+          <label>Message</label>
+          <textarea type="test" name="message" placeholder="Enter Text Here">
+          </textarea>
+        </div>
+        <div>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+          <a href="/">Refresh</a>
+        </div>
+      </form>
+    </div>
+
+    <hr />
+    <br />
+    <div>
+      <h4>Original Message</h4>
+      <p>{{ .originalMsg }}</p>
+    </div>
+    <hr />
+    <div>
+      <h4>Sentiment Score</h4>
+      <p>Positive: {{ .sentimentDetails.Positive }}</p>
+      <p>Negative: {{ .sentimentDetails.Negative }}</p>
+      <p>Neutral: {{ .sentimentDetails.Neutral }}</p>
+      <p>Final/Compound: {{ .sentimentDetails.Compound }}</p>
+    </div>
+  </body>
+</html>
